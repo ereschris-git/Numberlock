@@ -2,7 +2,7 @@
 
 A lightweight Windows productivity utility built with **AutoHotkey (v2)**.
 
-When **NumLock is ON**, this utility automatically rebinds the top row number keys to their primary shift symbols (`!`, `@`, `#`, etc.) and remaps `F2`–`F4` keys to essential editing shortcuts (`Copy`, `Cut`, `Paste`). When **NumLock is OFF**, all keys immediately revert to their default behavior.
+When **NumLock is ON**, this utility automatically rebinds the top row number keys to their primary shift symbols (`!`, `@`, `#`, etc.) and remaps `F1`–`F3` keys to essential editing shortcuts (`Copy`, `Cut`, `Paste`). When **NumLock is OFF**, all keys immediately revert to their default behavior.
 
 > **한국어 사용자 안내:** 아래로 스크롤하시면 한국어 상세 설명을 확인하실 수 있습니다.
 
@@ -12,7 +12,7 @@ When **NumLock is ON**, this utility automatically rebinds the top row number ke
 
 - **Context-Aware Mapping:** Activated **only** when `NumLock` is turned `ON`.
 - **Top Row Symbol Converter:** Type symbols instantly without pressing the `Shift` key (since numbers are typed using the Numpad).
-- **Productivity F-Keys:** Quick access to `Copy`, `Cut`, and `Paste` right at your fingertips (`F2`–`F4`).
+- **Productivity F-Keys:** Quick access to `Copy`, `Cut`, and `Paste` right at your fingertips (`F1`–`F3`).
 - **Instant Toggle:** Switching `NumLock` `OFF` instantly restores original key functions without restarting the app.
 - **Lightweight & Fast:** Runs quietly in the background with minimal resource usage.
 
@@ -20,13 +20,13 @@ When **NumLock is ON**, this utility automatically rebinds the top row number ke
 
 ## ⌨️ Key Mappings
 
-### 1. Function Keys (`F2` – `F4`)
+### 1. Function Keys (`F1` – `F3`)
 
 | Key | When NumLock is ON | When NumLock is OFF |
 | :--- | :--- | :--- |
-| **`F2`** | **Copy** (`Ctrl + C`) | Original `F2` (e.g., Rename) |
-| **`F3`** | **Cut** (`Ctrl + X`) | Original `F3` (e.g., Search) |
-| **`F4`** | **Paste** (`Ctrl + V`) | Original `F4` (e.g., Address bar) |
+| **`F1`** | **Copy** (`Ctrl + C`) | 
+| **`F2`** | **Cut** (`Ctrl + X`) | Original `F2` (e.g., Rename) |
+| **`F3`** | **Paste** (`Ctrl + V`) | Original `F3` (e.g., Search) |
 
 ### 2. Top-Row Number Keys (`1` – `0`)
 
@@ -79,7 +79,7 @@ AutoHotkey(v2) 기반의 **NumLock 연동 스마트 키 매핑 윈도우 유틸�
 
 - **NumLock 연동 동작:** `NumLock`이 켜진 상태에서만 매핑이 활성화됩니다.
 - **상단 숫자행 특수문자 변환:** 숫자 패드(Numpad)로 숫자를 입력하므로, 상단 숫자키는 `Shift` 키 없이 바로 특수문자를 입력하도록 변환합니다.
-- **F키 생산성 향상:** 손이 닿기 쉬운 `F2`~`F4` 키를 `복사`, `잘라내기`, `붙여넣기` 단축키로 활용합니다.
+- **F키 생산성 향상:** 손이 닿기 쉬운 `F1`~`F3` 키를 `복사`, `잘라내기`, `붙여넣기` 단축키로 활용합니다.
 - **실시간 토글:** 프로그램 재시작 없이 `NumLock` 온/오프만으로 원래 키 기능과 매핑 기능을 오갈 수 있습니다.
 - **초경량 백그라운드 실행:** 시스템 리소스를 거의 차지하지 않고 시계 옆 트레이에서 조용히 동작합니다.
 
@@ -87,13 +87,13 @@ AutoHotkey(v2) 기반의 **NumLock 연동 스마트 키 매핑 윈도우 유틸�
 
 ## ⌨️ 키 매핑표
 
-### 1. 기능 키 (`F2` – `F4`)
+### 1. 기능 키 (`F1` – `F3`)
 
 | 키 | NumLock ON 상태 | NumLock OFF 상태 |
 | :--- | :--- | :--- |
-| **`F2`** | **복사** (`Ctrl + C`) | 원래 `F2` (예: 이름 바꾸기) |
-| **`F3`** | **잘라내기** (`Ctrl + X`) | 원래 `F3` (예: 찾기/검색) |
-| **`F4`** | **붙여넣기** (`Ctrl + V`) | 원래 `F4` (예: 주소창 이동) |
+| **`F1`** | **복사** (`Ctrl + C`) |
+| **`F2`** | **잘라내기** (`Ctrl + X`) | 원래 `F2`(예: 이름 바꾸기) |
+| **`F3`** | **붙여넣기** (`Ctrl + V`) | 원래 `F3` (예: 찾기/검색) |
 
 ### 2. 상단 숫자 키 (`1` – `0`)
 
