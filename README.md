@@ -193,7 +193,7 @@ Dedicado a todos los colegas Guerreros del Teclado que sueñan con salir tempran
 ### 💡 Consejo: Iniciar automáticamente con Windows (Recomendado)
 Te recomendamos configurarlo para que se ejecute automáticamente cada vez que enciendas la PC.
 
-1. Haz clic derecho sobre **`KeyNumlock.exe`** y selecciona **[Crear acceso directo]**.
-2. Presiona las teclas `Win + R` para abrir la ventana 'Ejecutar'.
-3. Escribe `shell:startup` y presiona **Enter** (se abrirá la carpeta de Inicio de Windows).
-4. Mueve el **acceso directo** que creaste a esa carpeta de Inicio. ¡Y listo! 🎉
+## 📄 License & Attribution
+
+* **Code**: [MIT License](./LICENSE)
+* **Icon**: <a href="https://www.flaticon.com/free-icons/star" title="star icons">Star icons created by Magnific - Flaticon</a>
