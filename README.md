@@ -55,6 +55,15 @@ F8: 값만 붙여넣기 (Paste Values Only)
 
 칼퇴를 열망하는 이 땅의 모든 키보드 워리어들에게 이 소소한 평화를 바칩니다.
 
+### ⌨️ Key Mapping Reference
+
+| Key / Trigger | Condition | `KeyNumlock` Action | Note |
+| :--- | :--- | :--- | :--- |
+| **Top-row Numbers (1~0)** | `NumLock ON` | **! @ # $ % ^ & * ( )** | No `Shift` key required |
+| **F5** | Global | **`Ctrl + C`** (Copy) | Replaces standard shortcut |
+| **F6** | Global | **`Ctrl + X`** (Cut) | Replaces standard shortcut |
+| **F7** | Global | **`Ctrl + V`** (Paste) | Replaces standard shortcut |
+| **F8** | MS Excel Active | **Paste Values Only** | Context-aware (Excel only) |
 ---
 
 🚀 사용 방법 (How to Use)
