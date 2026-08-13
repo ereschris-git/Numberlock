@@ -57,6 +57,23 @@ F8: 값만 붙여넣기 (Paste Values Only)
 
 ---
 
+🚀 사용 방법 (How to Use)
+
+1. **다운로드**: 파일 목록에서 **`KeyNumlock.exe`**를 선택한 뒤 다운로드하여 원하는 폴더에 넣어줍니다.
+2. **실행**: 다운로드한 **`KeyNumlock.exe`**를 실행하면 바로 적용됩니다.
+
+---
+
+💡 팁: 컴퓨터 켤 때 자동으로 실행되게 만들기 (추천)
+매번 직접 실행할 필요 없이, 윈도우 부팅 시 자동으로 시작되도록 설정하는 것을 권장합니다.
+
+1. **`KeyNumlock.exe`** 파일에서 마우스 우클릭 ➔ **[바로 가기 만들기]**를 클릭합니다.
+2. `Win + R` 키를 눌러 실행 창을 엽니다.
+3. 입력창에 `shell:startup` 을 입력하고 **확인**을 누릅니다. (시동 프로그램 폴더가 열립니다)
+4. 아까 만들어둔 **[바로 가기]** 파일을 이 폴더 안으로 옮겨주면 설정 끝! 🎉
+   
+---
+
 🇺🇸 Project Motivation (English)
 After 40 years as a dedicated Keyboard Warrior, typing countess documents and processing endless data, I could no longer ignore 3 core absurdities of the standard layout. So, I took matters into my own hands!
 
@@ -86,6 +103,23 @@ F8: Paste Values Only
 "(Don't suffer in silence!)"
 
 Dedicated to all fellow Keyboard Warriors longing for an early clock-out.
+
+## 🚀 How to Use
+
+No installation is required! You can run it right away.
+
+1. **Download**: Click on **`KeyNumlock.exe`** in the file list above and download it to any folder you prefer.
+2. **Run**: Simply launch **`KeyNumlock.exe`** to start using it immediately.
+
+---
+
+### 💡 Tip: Run Automatically at Windows Startup (Recommended)
+We recommend adding it to your startup folder so it runs automatically whenever you turn on your PC.
+
+1. Right-click **`KeyNumlock.exe`** and select **[Create shortcut]**.
+2. Press `Win + R` to open the Run dialog box.
+3. Type `shell:startup` and press **Enter** (this opens the Windows Startup folder).
+4. Drag and drop the **shortcut file** you created into this Startup folder. All set! 🎉
 
 ---
 
@@ -118,3 +152,20 @@ F8: Pegar solo valores
 "(¡No te agantes las molestias!)"
 
 Dedicado a todos los colegas Guerreros del Teclado que sueñan con salir temprano del trabajo.
+
+## 🚀 Cómo Usar
+
+¡No requiere instalación! Puedes ejecutarlo directamente.
+
+1. **Descargar**: Haz clic en **`KeyNumlock.exe`** en la lista de archivos y descárgalo en la carpeta que prefieras.
+2. **Ejecutar**: Solo tienes que abrir **`KeyNumlock.exe`** para que empiece a funcionar de inmediato.
+
+---
+
+### 💡 Consejo: Iniciar automáticamente con Windows (Recomendado)
+Te recomendamos configurarlo para que se ejecute automáticamente cada vez que enciendas la PC.
+
+1. Haz clic derecho sobre **`KeyNumlock.exe`** y selecciona **[Crear acceso directo]**.
+2. Presiona las teclas `Win + R` para abrir la ventana 'Ejecutar'.
+3. Escribe `shell:startup` y presiona **Enter** (se abrirá la carpeta de Inicio de Windows).
+4. Mueve el **acceso directo** que creaste a esa carpeta de Inicio. ¡Y listo! 🎉
