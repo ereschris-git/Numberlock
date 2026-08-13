@@ -1,135 +1,123 @@
-# Numpad-Triggered Smart Key Mapper
+⌨️ KeyNumlock: 늙은 키보드 워리어의 노래
 
-A lightweight Windows productivity utility built with **AutoHotkey (v2)**.
+나 태어난 이 강산에 키보드 워리어되어 꽃피고 눈내리기 어언 40년
+내 고달픈 손가락에 남은 것은 관절염뿐
+내가 과연 무엇을 위해 Ctrl 과 Shift 를 눌러댔던가
 
-When **NumLock is ON**, this utility automatically rebinds the top row number keys to their primary shift symbols (`!`, `@`, `#`, etc.) and remaps `F1`–`F3` keys to essential editing shortcuts (`Copy`, `Cut`, `Paste`). When **NumLock is OFF**, all keys immediately revert to their default behavior.
+Shift 누르고 1을 누르면 ! 가 나오고
+Shift 누르고 2를 누르면 @ 가 나오는데
+NumLock 켜고 오른쪽 숫자패드로 숫자를 치는 이 마당에
+왜 상단열 숫자는 끝까지 숫자로만 고집을 부리는가!
 
-> **한국어 사용자 안내:** 아래로 스크롤하시면 한국어 상세 설명을 확인하실 수 있습니다.
+아- F5부터 F7까지 불쌍한 펑션키들아
+키보드 상단에 덩그러니 먼지만 쌓여 누군지도 모르고 살았구나
+이제 너희에게 복사(F5), 잘라내기(F6), 붙여넣기(F7)라는 
+위대한 임무를 부여하노니...
 
----
+엑셀이란 거대한 바다에서 헤매는 영혼들아
+값만 붙여넣으려 Alt+H+V+V를 누르며 영혼을 파먹히지 말라
+이제 F8 단 한 번으로 깔끔하게 '값만 붙여넣기'가 되나니!
 
-## 💡 Key Features
+내 비록 늙은 키보드 워리어이나
+후배 워리어들의 칼날(손가락)이 무뎌지는 것은 차마 볼 수 없다.
+불편한 것은 참지 말자! 
+이 유틸리티를 바치노니, 너희는 그저 칼춤을 추어라!
 
-- **Context-Aware Mapping:** Activated **only** when `NumLock` is turned `ON`.
-- **Top Row Symbol Converter:** Type symbols instantly without pressing the `Shift` key (since numbers are typed using the Numpad).
-- **Productivity F-Keys:** Quick access to `Copy`, `Cut`, and `Paste` right at your fingertips (`F1`–`F3`).
-- **Instant Toggle:** Switching `NumLock` `OFF` instantly restores original key functions without restarting the app.
-- **Lightweight & Fast:** Runs quietly in the background with minimal resource usage.
+- 친절한 시골 아재 올림 -
 
----
+🚀 이 유틸리티를 만들게 된 취지 (Project Motivation)
+키보드 인생 어언 40년, 수많은 문서를 작성하고 데이터를 다루면서 늘 마음에 품었던 3가지 불합리함을 참지 못해 직접 칼을 뽑아 들었습니다.
 
-## ⌨️ Key Mappings
+1. 상단 숫자키의 정체성 확립 (NumLock ON)
+문제점: 우측 숫자 패드(Tenkey)가 켜져 있는데, 굳이 키보드 상단 숫자를 또 숫자로 쓸 이유가 있습니까? 특수문자 하나 치겠다고 매번 Shift 키를 누르며 손가락 마디를 꺾어야 했습니다.
 
-### 1. Function Keys (`F1` – `F3`)
+해결: NumLock이 켜져 있는 동안, 상단 숫자키(1~0)는 Shift를 누르지 않아도 즉시 특수문자(!@#$%^&*())가 입력되도록 직관적으로 변경했습니다.
 
-| Key | When NumLock is ON | When NumLock is OFF |
-| :--- | :--- | :--- |
-| **`F1`** | **Copy** (`Ctrl + C`) | 
-| **`F2`** | **Cut** (`Ctrl + X`) | Original `F2` (e.g., Rename) |
-| **`F3`** | **Paste** (`Ctrl + V`) | Original `F3` (e.g., Search) |
+2. 버려진 펑션키(F5~F7)의 신분 상승
+문제점: F5는 가끔 새로고침할 때나 쓰고, F6, F7은 도대체 무슨 기능이 있는지도 모른 채 먼지만 쌓여가던 비운의 키들이었습니다.
 
-### 2. Top-Row Number Keys (`1` – `0`)
+해결: 가장 자주 쓰지만 손가락 단축키 조합(Ctrl+C, Ctrl+X, Ctrl+V)이 번거로웠던 핵심 3대 기능을 이 녀석들에게 하사했습니다.
 
-| Key | When NumLock is ON | When NumLock is OFF |
-| :---: | :---: | :---: |
-| **`1`** | **`!`** | `1` |
-| **`2`** | **`@`** | `2` |
-| **`3`** | **`#`** | `3` |
-| **`4`** | **`$`** | `4` |
-| **`5`** | **`%`** | `5` |
-| **`6`** | **`^`** | `6` |
-| **`7`** | **`&`** | `7` |
-| **`8`** | **`*`** | `8` |
-| **`9`** | **`(`** | `9` |
-| **`0`** | **`)`** | `0` |
+F5: 복사 (Copy)
 
----
+F6: 잘라내기 (Cut)
 
-## 🚀 How to Use
+F7: 붙여넣기 (Paste)
 
-### Option A: Running from Source (`.ahk`)
-1. Download and install [AutoHotkey v2](https://www.autohotkey.com/).
-2. Clone or download this repository.
-3. Double-click `numberlock.ahk` to run.
+3. 엑셀 전사들을 위한 신의 한 수 (F8)
+문제점: 엑셀 작업 시 서식이 깨지는 것을 막기 위해 '값만 붙여넣기'를 쓰려면 단축키 복잡도가 거의 피아노 연주 수준이었습니다.
 
-### Option B: Auto-start with Windows
-1. Press `Win + R`, type `shell:startup`, and press **Enter**.
-2. Create a shortcut to `numberlock.ahk` inside the Startup folder.
+해결: 오직 엑셀(Excel)이 활성화된 순간에만 작동하는 전용 단축키를 부여했습니다.
 
----
+F8: 값만 붙여넣기 (Paste Values Only)
 
-## 🛡️ Note on Anti-Virus Warnings (False Positives)
+"(불편한 것은 참지말자구요!)"
 
-Because this script intercepts low-level keyboard inputs (Keyboard Hooking) to remap keys, some Antivirus software (or Windows Defender) may flag the compiled `.exe` version as a false positive (e.g., Keylogger). 
-
-Rest assured, **this utility is completely safe and open-source**. You can inspect the full source code directly in `numberlock.ahk`.
-
----
----
-
-# 🇰🇷 한국어 설명 (Korean Guide)
-
-AutoHotkey(v2) 기반의 **NumLock 연동 스마트 키 매핑 윈도우 유틸리티**입니다.
-
-**NumLock이 켜져(ON) 있을 때**, 상단 숫자행 키(`1`~`0`)를 누르면 `Shift` 조합 특수문자(`!`, `@`, `#` 등)가 즉시 입력되며, `F2`~`F4` 키는 편집 단축키(`복사`, `잘라내기`, `붙여넣기`)로 작동합니다. **NumLock을 끄면(OFF)** 시스템 기본 동작으로 즉시 복원됩니다.
+칼퇴를 열망하는 이 땅의 모든 키보드 워리어들에게 이 소소한 평화를 바칩니다.
 
 ---
 
-## 💡 주요 기능
+🇺🇸 Project Motivation (English)
+After 40 years as a dedicated Keyboard Warrior, typing countess documents and processing endless data, I could no longer ignore 3 core absurdities of the standard layout. So, I took matters into my own hands!
 
-- **NumLock 연동 동작:** `NumLock`이 켜진 상태에서만 매핑이 활성화됩니다.
-- **상단 숫자행 특수문자 변환:** 숫자 패드(Numpad)로 숫자를 입력하므로, 상단 숫자키는 `Shift` 키 없이 바로 특수문자를 입력하도록 변환합니다.
-- **F키 생산성 향상:** 손이 닿기 쉬운 `F1`~`F3` 키를 `복사`, `잘라내기`, `붙여넣기` 단축키로 활용합니다.
-- **실시간 토글:** 프로그램 재시작 없이 `NumLock` 온/오프만으로 원래 키 기능과 매핑 기능을 오갈 수 있습니다.
-- **초경량 백그라운드 실행:** 시스템 리소스를 거의 차지하지 않고 시계 옆 트레이에서 조용히 동작합니다.
+1. Reclaiming the Top Row Numbers (NumLock ON)
+The Problem: When the Numpad on the right is turned ON, why do we still need the top row to type numbers? Stretching fingers to press Shift every single time just to get a simple special character felt like unnecessary manual labor.
 
----
+The Solution: Whenever NumLock is ON, the top row number keys (1 to 0) directly output special characters (!@#$%^&*()) without needing to hold Shift.
 
-## ⌨️ 키 매핑표
+2. Giving Forgotten Function Keys a New Purpose
+The Problem: F5 was barely used (except for refreshing), while F6 and F7 were completely abandoned—collecting dust without anyone even knowing what they were meant for.
 
-### 1. 기능 키 (`F1` – `F3`)
+The Solution: I promoted these lonely keys to handle the 3 most essential daily commands, replacing awkward Ctrl key combinations:
 
-| 키 | NumLock ON 상태 | NumLock OFF 상태 |
-| :--- | :--- | :--- |
-| **`F1`** | **복사** (`Ctrl + C`) |
-| **`F2`** | **잘라내기** (`Ctrl + X`) | 원래 `F2`(예: 이름 바꾸기) |
-| **`F3`** | **붙여넣기** (`Ctrl + V`) | 원래 `F3` (예: 찾기/검색) |
+F5: Copy (Ctrl + C)
 
-### 2. 상단 숫자 키 (`1` – `0`)
+F6: Cut (Ctrl + X)
 
-| 키 | NumLock ON 상태 | NumLock OFF 상태 |
-| :---: | :---: | :---: |
-| **`1`** | **`!`** | `1` |
-| **`2`** | **`@`** | `2` |
-| **`3`** | **`#`** | `3` |
-| **`4`** | **`$`** | `4` |
-| **`5`** | **`%`** | `5` |
-| **`6`** | **`^`** | `6` |
-| **`7`** | **`&`** | `7` |
-| **`8`** | **`*`** | `8` |
-| **`9`** | **`(`** | `9` |
-| **`0`** | **`)`** | `0` |
+F7: Paste (Ctrl + V)
+
+3. A Holy Grail for Excel Warriors (F8)
+The Problem: To paste 'Values Only' in Excel and avoid ruining the formatting, you used to need a complex piano-like shortcut sequence (Alt + H + V + V).
+
+The Solution: A context-aware key active only when Microsoft Excel is open:
+
+F8: Paste Values Only
+
+"(Don't suffer in silence!)"
+
+Dedicated to all fellow Keyboard Warriors longing for an early clock-out.
 
 ---
 
-## 🚀 사용 방법
+🇪🇸 Motivación del Proyecto (Español)
+Tras 40 años como un dedicado Guerrero del Teclado, redactando innumerables documentos y procesando datos sin fin, ya no podía soportar 3 absurdas incomodidades del teclado estándar. ¡Así que decidí tomar cartas en el asunto!
 
-### 소스 코드 파일(`.ahk`)로 실행하기
-1. [AutoHotkey v2](https://www.autohotkey.com/) 공식 홈페이지에서 프로그램 설치.
-2. 이 저장소의 `numberlock.ahk` 파일 다운로드.
-3. `numberlock.ahk` 파일을 더블 클릭하여 실행.
+1. Redefiniendo la Fila Superior de Números (NumLock ON)
+El Problema: Con el teclado numérico de la derecha activado, ¿para qué necesitamos que la fila superior vuelva a escribir números? Tener que doblar los dedos y pulsar Shift cada vez solo para poner un carácter especial era una tortura innecesaria.
 
-### 윈도우 부팅 시 자동 실행 설정
-1. 단축키 `Win + R`을 누르고 `shell:startup` 입력 후 엔터.
-2. 열린 시작프로그램 폴더 안에 `numberlock.ahk` 파일의 **바로 가기**를 생성.
+La Solución: Mientras NumLock esté activado, las teclas numéricas superiores (1 al 0) escriben caracteres especiales (!@#$%^&*()) de forma directa, ¡sin necesidad de mantener pulsado Shift!
 
----
+2. Una Segunda Vida para las Teclas de Función Olvidadas
+El Problema: F5 solo se usaba para actualizar la página, mientras que F6 y F7 estaban totalmente abandonadas, juntando polvo sin que nadie supiera para qué servían.
 
-## 🛡️ 백신 오탐지(False Positive) 관련 안내
+La Solución: Les otorgué una gran misión a estas teclas olvidadas, reemplazando los incómodos atajos con Ctrl:
 
-키보드 신호를 중간에서 가로채는 방식(Keyboard Hooking) 특성상, 일부 백신 프로그램이나 Windows Defender에서 실행 파일(.exe)을 키로거 형태의 위험 요소로 잘못 감지(오탐지)할 수 있습니다.
+F5: Copiar (Ctrl + C)
 
-본 유틸리티는 **100% 안전한 오픈소스 프로젝트**입니다. 모든 동작 로직은 `numberlock.ahk` 소스 코드로 직접 검증하실 수 있습니다.
+F6: Cortar (Ctrl + X)
+
+F7: Pegar (Ctrl + V)
+
+3. El Santo Grial para los Guerreros de Excel (F8)
+The Problema: Para 'Pegar solo valores' en Excel y no arruinar el formato, había que hacer malabares en el teclado casi como tocando el piano (Alt + H + V + V).
+
+La Solución: Un atajo inteligente que se activa únicamente cuando Microsoft Excel está abierto:
+
+F8: Pegar solo valores
+
+"(¡No te agantes las molestias!)"
+
+Dedicado a todos los colegas Guerreros del Teclado que sueñan con salir temprano del trabajo.
 
 ---
 
