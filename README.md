@@ -57,13 +57,15 @@ F8: 값만 붙여넣기 (Paste Values Only)
 
 ### ⌨️ Key Mapping Reference (키 매핑 안내)
 
-| 구분 | 기본 상태 / 액션 | `KeyNumlock` 동작 결과 | 비고 |
+| 구분 | 조건 / 환경 | `KeyNumlock` 동작 결과 | 비고 |
 | :--- | :--- | :--- | :--- |
-| **상단 숫자키** | `NumLock ON` | **! @ # $ % ^ & * ( )** (특수문자 직접 입력) | `Shift` 키 조합 불필요 |
-| **F5** | 단일 입력 | **`Ctrl + C`** (복사) | |
-| **F6** | 단일 입력 | **`Ctrl + X`** (잘라내기) | |
-| **F7** | 단일 입력 | **`Ctrl + V`** (붙여넣기) | |
-| **F8** | Excel 실행 중 | **값만 붙여넣기** (`Paste Values Only`) | Microsoft Excel 전용 |
+| **상단 숫자키** | `NumLock ON` | **! @ # $ % ^ & * ( )** | `Shift` 조합 없이 직접 입력 |
+| **F5** | 전체 | **`Ctrl + C`** (복사) | |
+| **F6** | 전체 | **`Ctrl + X`** (잘라내기) | |
+| **F7** | 전체 | **`Ctrl + V`** (붙여넣기) | |
+| **F8** | MS Excel 실행 중 | **값만 붙여넣기** (`Paste Values Only`) | Excel 전용 |
+| **F9** | PowerToys 필요 | **텍스트 추출** (`Win + Shift + Alt + T`) | PowerToys Text Extractor |
+| **F10** | PowerToys 필요 | **컬러 피커** (`Win + Shift + Alt + C`) | PowerToys Color Picker |
 
 🚀 사용 방법 (How to Use)
 
@@ -121,6 +123,8 @@ Dedicated to all fellow Keyboard Warriors longing for an early clock-out.
 | **F6** | Global | **`Ctrl + X`** (Cut) | Replaces standard shortcut |
 | **F7** | Global | **`Ctrl + V`** (Paste) | Replaces standard shortcut |
 | **F8** | MS Excel Active | **Paste Values Only** | Context-aware (Excel only) |
+| **F9** | PowerToys Required | **Text Extractor** (`Win + Shift + Alt + T`) | PowerToys feature |
+| **F10** | PowerToys Required | **Color Picker** (`Win + Shift + Alt + C`) | PowerToys feature |
 
 ## 🚀 How to Use
 
@@ -180,6 +184,8 @@ Dedicado a todos los colegas Guerreros del Teclado que sueñan con salir tempran
 | **F6** | Global | **`Ctrl + X`** (Cortar) | Reemplaza el atajo estándar |
 | **F7** | Global | **`Ctrl + V`** (Pegar) | Reemplaza el atajo estándar |
 | **F8** | MS Excel Activo | **Pegar solo valores** | Exclusivo para Microsoft Excel |
+| **F9** | Requiere PowerToys | **Extractor de texto** (`Win + Shift + Alt + T`) | Función de PowerToys |
+| **F10** | Requiere PowerToys | **Selector de color** (`Win + Shift + Alt + C`) | Función de PowerToys |
 
 ## 🚀 Cómo Usar
 
